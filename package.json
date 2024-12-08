@@ -1,0 +1,1 @@
+{"name":"hono-cloudflare-workers-example","version":"0.1.0","private":true,"scripts":{"dev":"wrangler dev src/index.ts","deploy":"wrangler deploy src/index.ts"},"dependencies":{"hono":"^3.11.7"},"devDependencies":{"@cloudflare/workers-types":"^4.20231121.0","typescript":"^5.3.3","wrangler":"^3.19.0"}}

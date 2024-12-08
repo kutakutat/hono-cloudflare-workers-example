@@ -1,0 +1,10 @@
+name = "hono-cloudflare-workers-example"
+main = "src/index.ts"
+compatibility_date = "2023-12-08"
+
+[vars]
+MY_VARIABLE = "production_value"
+
+# Environments
+[env.development]
+vars = { MY_VARIABLE = "development_value" }
